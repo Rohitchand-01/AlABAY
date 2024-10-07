@@ -5,6 +5,9 @@ import dogsimg from "./assets/images/dogs.png";
 import frame from "./assets/images/frame1.png";
 import rectangle from "./assets/images/rectangle 3.png";
 import map from "./assets/images/map.png";
+import frame1 from "./assets/images/frame 18.png";
+import frame2 from "./assets/images/frame 19.png";
+
 const App = () => {
   return (
     <div className=" flex flex-col gap-56">
@@ -43,14 +46,57 @@ const App = () => {
           <p className="text-[30px]">Our mission is to honor the heritage of the Alabay by creating a</p>
           <p className="text-[30px]">vibrant, loyal, and powerful community. Just as the Alabay protects its</p>
           <p className="text-[30px]">flock, we aim to build a pack that stands strong together</p>
-        </div>        
-        <img className=" w-[1240px] absolute top-[2520px] z-[-10]" src={rectangle} alt="" />
-      </div>
-      <div className=" flex ml-40 mt-[-120px] gap-3">
-          <p className="text-[120px] text-white">ROAD MAP</p>
-          <img className="w-[710px]" src={map} alt="" />
         </div>
-    </div>
+
+        <img className=" w-[1240px] absolute top-[2520px] z-[-10]" src={rectangle} alt="" />
+
+        <div className=" w-[80%] flex">
+          <p className="text-[200px] text-white mt-16">ROAD MAP</p>
+        </div>
+
+        <div className=" w-[80%] flex flex-col justify-right mt-[200px]">
+          <div className="">
+            <p className=" font-sans font-bold text-[48px]">Our journey is just beginning.</p>
+            <p className=" font-sans font-bold text-[48px]">Explore our roadmap to see the </p>
+            <p className=" font-sans font-bold text-[48px]">exciting milestones and future</p>
+            <p className=" font-sans font-bold text-[48px]">plans we have in store</p>
+          </div>
+          <div className="">
+            <p className="text-[#FFA800] text-[46px] font-sans font-bold ">Join us as we grow and achieve</p>
+            <p className="text-[#FFA800] text-[46px] font-sans font-bold ">new heights.</p>
+          </div>
+        </div>
+        <img className="w-[80%] mt-60" src={frame1} alt="" />
+
+        <img className=" w-[1240px] absolute top-[5005.52px] z-[-10]" src={rectangle} alt="" />
+        
+        <div className=" w-[80%] flex ">
+        <div className=" flex flex-col">
+          <p className=" text-[130px] text-white mt-64">TOKENOMICS</p>
+          <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px] mt-12">
+            <p className=" pl-5 text-[36px] text-white Montserrat">LIQUIDITY</p>
+            <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">LOCKED</p>
+          </div>
+          <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px]">
+            <p className=" pl-5 text-[36px] text-white Montserrat">CONTRACT</p>
+            <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">RENOUNCED</p>
+          </div>
+          <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px]">
+            <p className=" pl-5 text-[36px] text-white Montserrat">TAXES</p>
+            <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">0%</p>
+          </div>
+        </div>
+        <img className=" w-[550px] mt-[500px]" src={frame2} alt="" />
+        </div>
+
+        <p className="text-[200px] text-[#FFA800]">merchandise</p>
+
+
+
+
+
+      </div>
+    </div >
   )
 }
 
