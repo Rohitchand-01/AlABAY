@@ -7,6 +7,14 @@ import rectangle from "./assets/images/rectangle 3.png";
 import map from "./assets/images/map.png";
 import frame1 from "./assets/images/frame 18.png";
 import frame2 from "./assets/images/frame 19.png";
+import tshirt1 from "./assets/images/tshirt1.png";
+import game from "./assets/images/game.png";
+import frame50 from "./assets/images/frame 50.png";
+import arrow from "./assets/images/arrow.png";
+import frame36 from "./assets/images/frame 36.png";
+import dog3 from "./assets/images/dog3.png";
+
+
 
 const App = () => {
   return (
@@ -69,31 +77,54 @@ const App = () => {
         <img className="w-[80%] mt-60" src={frame1} alt="" />
 
         <img className=" w-[1240px] absolute top-[5005.52px] z-[-10]" src={rectangle} alt="" />
-        
-        <div className=" w-[80%] flex ">
-        <div className=" flex flex-col">
-          <p className=" text-[130px] text-white mt-64">TOKENOMICS</p>
-          <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px] mt-12">
-            <p className=" pl-5 text-[36px] text-white Montserrat">LIQUIDITY</p>
-            <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">LOCKED</p>
+
+        <div className=" w-[80%] flex">
+          <div className=" flex flex-col">
+            <p className=" text-[130px] text-white mt-64">TOKENOMICS</p>
+            <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px] mt-12">
+              <p className=" pl-5 text-[36px] text-white Montserrat">LIQUIDITY</p>
+              <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">LOCKED</p>
+            </div>
+            <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px]">
+              <p className=" pl-5 text-[36px] text-white Montserrat">CONTRACT</p>
+              <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">RENOUNCED</p>
+            </div>
+            <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px]">
+              <p className=" pl-5 text-[36px] text-white Montserrat">TAXES</p>
+              <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">0%</p>
+            </div>
           </div>
-          <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px]">
-            <p className=" pl-5 text-[36px] text-white Montserrat">CONTRACT</p>
-            <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">RENOUNCED</p>
-          </div>
-          <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px]">
-            <p className=" pl-5 text-[36px] text-white Montserrat">TAXES</p>
-            <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">0%</p>
-          </div>
+          <img className=" w-[550px] mt-[500px]" src={frame2} alt="" />
         </div>
-        <img className=" w-[550px] mt-[500px]" src={frame2} alt="" />
+        <p className="text-[180px] text-[#FFA800]">merchandise</p>
+
+        <img className=" w-[70%] mt-28" src={tshirt1} alt="" />
+        <img className=" w-[1240px] absolute top-[7355.52px] z-[-10]" src={rectangle} alt="" />
+
+        <p className="text-[150px] text-white mt-20">GAMES</p>
+        <p className="text-[50px] font-sans font-bold">Stay tuned for upcoming games !</p>
+        <div className=" relative justify-center items-center flex w-[80%]">
+          <img className=" mt-20 w-[95%]" src={game} alt="" />
+          <button class="absolute bottom-[120px]  bg-[#843AFC] text-white px-4 py-2 rounded-full w-[200px] hover:bg-purple-600 font-sans font-bold">
+            DISCOVER
+          </button>
         </div>
-
-        <p className="text-[200px] text-[#FFA800]">merchandise</p>
-
-
-
-
+        <div className="flex gap-5 text-left w-[85%] mt-16">
+          <p className=" text-[64px] font-sans font-bold text-[#FFA800]">GAME </p>
+          <p className=" text-[64px] font-sans font-bold">PREVIEWS</p>
+        </div>
+        <div className=" flex justify-center items-center mt-10">
+          <img className=" w-[75%]" src={frame50} alt="" />
+          <img className="" src={arrow} alt="" />
+        </div>
+        <p className=" w-[85%] text-left text-[200px] text-[#FFA800] mt-72">
+        social media
+        links
+        </p>
+        <div className=" w-[85%] flex justify-center items-center">
+          <img className=" w-[50%]" src={frame36} alt="" />
+          <img className=" w-[50%]" src={dog3} alt="" />
+        </div>
 
       </div>
     </div >
