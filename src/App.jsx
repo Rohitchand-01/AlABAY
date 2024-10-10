@@ -31,7 +31,7 @@ const App = () => {
         <div className="h-[90lvh]">
 
         </div>
-        <div className=" w-full px-10 h-100 rounded-t-3xl bg-white gradient-background">
+        <div className=" w-[80%] px-10 h-100 rounded-t-3xl bg-white gradient-background">
           <div className="text-right">
             <p className="text-[100px] text-[#F76902] ">History Of</p>
             <p className="text-[220px] text-green-50 leading-none"> ALABAY</p>
