@@ -69,7 +69,7 @@ const App = () => {
 
           <div className=" relative mt-0">
             <img className=" mt-[300px]" src={rectangle} alt="" />
-            <div className="text-center font-sans font-semibold leading-none mt-28 absolute top-[200px]">
+            <div className="text-center font-sans font-semibold leading-none mt-60 absolute top-[200px]">
               <p className="text-[30px]">Our mission is to honor the heritage of the Alabay by creating a</p>
               <p className="text-[30px]">vibrant, loyal, and powerful community. Just as the Alabay protects its</p>
               <p className="text-[30px]">flock, we aim to build a pack that stands strong together</p>
