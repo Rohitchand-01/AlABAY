@@ -18,20 +18,25 @@ import dog3 from "./assets/images/dog3.png";
 
 const App = () => {
   return (
-    <div className=" flex flex-col gap-56">
+    <div className=" relative flex flex-col gap-56 overflow-scroll h-[100lvh]">
       <GradientText />
       <div className=" text-5xl w-full bg-[#181C27]">
         <p className=" text-5xl text-white text-center p-2">
           where the <span className="text-[#FFA800]">legendary Central Asian Shepherd Dog</span> meets a new-age adventure. <span className="text-[#FFA800]">Join us</span> in celebrating the <span className="text-[#FFA800]">strength</span>, <span className="text-[#FFA800]">loyalty</span>, and <span className="text-[#FFA800]">heritage</span> of the Alabay breed.
         </p>
       </div>
-      <div className=" flex flex-col justify-center items-center ">
-        <div className="w-full px-10 h-100 gradient-background">
+      
+
+      <div className=" absolute flex flex-col justify-center items-center">
+        <div className="h-[90lvh]">
+
+        </div>
+        <div className=" w-full px-10 h-100 rounded-t-3xl bg-white gradient-background">
           <div className="text-right">
             <p className="text-[100px] text-[#F76902] ">History Of</p>
             <p className="text-[220px] text-green-50 leading-none"> ALABAY</p>
           </div>
-          <div className="text-right">
+          <div className="text-right ">
             <p className="text-[42px] font-sans font-semibold">The Central Asian Shepherd Dog, </p>
             <p className="text-[42px] font-sans font-semibold">also known as Alabay, has been a </p>
             <p className="text-[42px] font-sans font-semibold">guardian of livestock and property</p>
@@ -40,14 +45,14 @@ const App = () => {
             <p className="text-[42px] font-sans font-semibold">renowned for their courage,</p>
             <p className="text-[42px] font-sans font-semibold"> strength, and loyalty.</p>
           </div>
-          <img className=" absolute w-[800px] top-[1000px] left-[60px]" src={dogimg} alt="" />
+          <img className=" absolute w-[800px] top-[900px] left-[60px]" src={dogimg} alt="" />
         </div>
         <div className="flex gap-10 Montserrat justify-center mt-32 font-bold">
           <p className=" text-[32px]">ALL</p>
           <p className="text-[#FFA800] text-[32px]">PHOTOS</p>
           <p className=" text-[32px]">VIDEOS</p>
         </div>
-        <img className="w-[1240px]" src={frame} alt="" />
+        <img className="w-[1240px] " src={frame} alt="" />
         <p className="text-[150px] text-[#FFA800]">PROJECT VISION</p>
         <img className="w-[1240px] " src={dogsimg} alt="" />
         <div className="text-center font-sans font-semibold leading-none mt-28">
@@ -80,7 +85,7 @@ const App = () => {
 
         <div className=" w-[80%] flex">
           <div className=" flex flex-col">
-            <p className=" text-[130px] text-white mt-64">TOKENOMICS</p>
+            <p className=" text-[130px] text-white mt-[330px]">TOKENOMICS</p>
             <div className=" rounded-3xl bg-[#353535] mb-[67px] w-[450px] mt-12">
               <p className=" pl-5 text-[36px] text-white Montserrat">LIQUIDITY</p>
               <p className=" pl-5 text-[60px] text-[#FFF280] Montserrat">LOCKED</p>
@@ -118,8 +123,8 @@ const App = () => {
           <img className="" src={arrow} alt="" />
         </div>
         <p className=" w-[85%] text-left text-[200px] text-[#FFA800] mt-72">
-        social media
-        links
+          social media
+          links
         </p>
         <div className=" w-[85%] flex justify-center items-center">
           <img className=" w-[50%]" src={frame36} alt="" />
