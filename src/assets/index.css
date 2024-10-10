@@ -35,9 +35,8 @@ body {
 }
 
 .gradient-background{
-    width: 90%;
     background-image: url("./images/Rectangle2.png");
-    height: 100%;
+  
 }
 
 .Montserrat{    
@@ -45,4 +44,8 @@ body {
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
+}
+
+.gradient-background2{
+    background-image: url("./images/Rectangle3.png");
 }
