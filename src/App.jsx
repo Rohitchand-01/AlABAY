@@ -5,13 +5,13 @@ import dogsimg from "./assets/images/dogs.png";
 import frame from "./assets/images/frame1.png";
 import rectangle from "./assets/images/Rectangle3.png";
 import map from "./assets/images/map.png";
-import frame1 from "./assets/images/frame 18.png";
-import frame2 from "./assets/images/frame 19.png";
+import frame1 from "./assets/images/Frame 18.png";
+import frame2 from "./assets/images/Frame 19.png";
 import tshirt1 from "./assets/images/tshirt1.png";
 import game from "./assets/images/game.png";
-import frame50 from "./assets/images/frame 50.png";
+import frame50 from "./assets/images/Frame 50.png";
 import arrow from "./assets/images/arrow.png";
-import frame36 from "./assets/images/frame 36.png";
+import frame36 from "./assets/images/Frame 36.png";
 import dog3 from "./assets/images/dog3.png";
 
 
