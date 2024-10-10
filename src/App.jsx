@@ -3,7 +3,7 @@ import "./assets/index.css";
 import dogimg from "./assets/images/dog.png";
 import dogsimg from "./assets/images/dogs.png";
 import frame from "./assets/images/frame1.png";
-import rectangle from "./assets/images/rectangle 3.png";
+import rectangle from "./assets/images/rectangle3.png";
 import map from "./assets/images/map.png";
 import frame1 from "./assets/images/frame 18.png";
 import frame2 from "./assets/images/frame 19.png";
