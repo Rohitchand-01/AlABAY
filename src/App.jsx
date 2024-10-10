@@ -61,14 +61,14 @@ const App = () => {
             </div>
             <img className="w-[1100px] ml-16 " src={frame} alt="" />
             <p className="text-[150px] text-[#FFA800] ml-20">PROJECT VISION</p>
-            <img className="w-[1240px] " src={dogsimg} alt="" />
+            <img className="absolute  w-[1240px] top-[2000px] z-10" src={dogsimg} alt="" />
           </div>
 
 
 
 
           <div className=" relative mt-0">
-            <img className="" src={rectangle} alt="" />
+            <img className=" mt-[300px]" src={rectangle} alt="" />
             <div className="text-center font-sans font-semibold leading-none mt-28 absolute top-[200px]">
               <p className="text-[30px]">Our mission is to honor the heritage of the Alabay by creating a</p>
               <p className="text-[30px]">vibrant, loyal, and powerful community. Just as the Alabay protects its</p>
